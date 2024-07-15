@@ -16,5 +16,7 @@ RSpec.describe "the recipes show page" do
     expect(page).to have_content(garlic_oil.genre)
     expect(page).to have_content(garlic.name)
     expect(page).to have_content(oil.name)
+
+    expect(page).to have_content(3)
   end
 end
