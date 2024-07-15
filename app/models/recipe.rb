@@ -9,6 +9,6 @@ class Recipe < ApplicationRecord
   #     ingredient_cost_array << ingredient.cost
   #   end
   #   ingredient_cost_array.sum.flatten
-  # end
+  # end.
 
 end
