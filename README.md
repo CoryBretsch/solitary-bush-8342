@@ -23,7 +23,7 @@ When you run `bundle exec rspec`, you should have 6 failing model tests to start
 * Commit Frequently, about every 15 - 30 minutes
 * Push your code to your fork **once the time is up (not before!)**
 
-## Submission
+## Submission.
 
 **Once the time for the assessment is up**, push your code to your fork and create a pull request to the `turingschool-examples` repository. Include the following:
 

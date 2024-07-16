@@ -5,3 +5,10 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+garlic_oil = Recipe.create!(name: "garlic oil", complexity: 5, genre: "dip")
+oil = Ingredient.create!(name: "oil", cost: 2)
+garlic = Ingredient.create!(name: "garlic", cost: 1)
+
+RecipeIngredient.create!(recipe: garlic_oil, ingredient: oil)
+RecipeIngredient.create!(recipe: garlic_oil, ingredient: garlic)
